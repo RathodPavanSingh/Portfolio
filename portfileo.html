@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pavan portfileo website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: rgb(245, 177, 88);
+            padding: 34px; 
+            margin: 34px; 
+            width: 555px;
+            
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color:red;
+            background-color: green;
+
+        }
+        a:visited{
+           background-color:rgb(43, 171, 226)
+        }
+        a:active{
+           background-color:darkblue ;
+        }
+        .btn{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+          background-color:rgb(0, 128, 4); 
+          padding: 6px; 
+          border:red;
+          cursor: pointer;
+          font-size: 13px;
+          border-radius: 4px; 
+        }
+        .btn:hover{
+            color: darkgoldenrod;
+        background-color: aqua;
+        border: 4px solid rgb(0, 0, 0);
+        }
+     
+    
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(54, 35, 77);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color:burlywood;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 1.04rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 0px 4px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.firstsection>div{
+    width: 30%;
+
+}
+.leftsection{
+   background-color:rgb(88, 245, 203) ;
+    width: 50%;
+    font-size: 3rem;
+    margin: 0px 16px;
+    left:0%;
+
+    }
+    .leftsection{
+        font-size: 3rem;
+    }
+    .btn{
+       padding: 10px; 
+       background-color:darkmagenta;
+       color:white;
+       border:4px solid white;
+       border-radius:10px;
+    font-size: 20px;
+    cursor: pointer;
+
+    }
+
+.rightsection img{
+    background-color:yellow;
+    width:50%;
+    margin:60px 0px;
+}
+.purple{
+    color: blueviolet;
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: blueviolet;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 90px;
+    width: 2px;
+    background-color: white;
+    margin: 0 150px;
+}
+.image-top{
+    width: 33px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-tittle{
+    position: relative;
+    top: 50px;
+    width: 90px;
+
+}
+.vertical-desc{
+    position: relative;
+    top:66px;
+    color: gray;
+    width: 160px;
+    left: 0px;
+    font-size: 9px;
+}
+footer{
+    background-color: chartreuse;
+    height: 253px;
+}
+.footer{
+display: flex;
+margin: 123px 122px;
+padding: 5px 0px;
+justify-content: space-evenly;
+}
+.footer ul{
+    list-style:none;
+}
+.footer>div{
+    width: 233px;
+}
+.footer-rights{
+    text-align: center;
+    color: red;
+    padding: 23px 0px;
+}
+</style
+</head>
+
+<body>
+    <div class="container">
+        <div class="clock">
+
+           <div style="--clr:orange; --h:54px" id= "hour" class="hand"><i></i></div>
+           <div style="--clr:white; --h:84px " id="min" class="hand"><i></i></div>
+           <div style="--clr:green; --h:104px" id="sec" class="hand"><i></i></div>
+
+            <span style="--i:1;"><b>1</b></span>
+            <span style="--i:2;"><b>2</b></span>  
+             <span style="--i:3;"><b>3</b></span>
+             <span style="--i:4;"><b>4</b></span>
+             <span style="--i:5;"><b>5</b></span>
+             <span style="--i:6;"><b>6</b></span>
+             <span style="--i:7;"><b>7</b></span>
+             <span style="--i:8;"><b>8</b></span>
+             <span style="--i:9;"><b>9</b></span>
+             <span style="--i:10;"><b>10</b></span>
+             <span style="--i:11;"><b>11</b></span>
+             <span style="--i:12;"><b>12</b></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    //
+
+
+
+    <div class="container" id="cont1">
+        <h3>this is headding</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum illum alias at quisquam tempore, nisi distinctio labore quibusdam, beatae officia possimus ipsam dolore non eos. Debitis, quas! Necessitatibus dolorum, minima odio maxime blanditiis corrupti!</p>
+        <a href="https://facebook.com"   class="btn">facebook</a>
+        <a href="https://google.com" class="btn">google</a>
+        <a href="https://instagram.com" class="btn">instagram</a>
+        <button class="btn">contact us</button>
+        
+    </div>
+
+    <header>
+        <nav>
+            <div class="left">pavan portfolie</div>
+            <div class="right">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="firstsection">
+                <div class="leftsection">
+                    hi, my may name is <span class="purple">pavan</span>
+                    <div> i am passionates</div>
+                    <div> web developer </div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Visit Github</button>
+                    </div>
+                </div>
+            </div>
+                <div class="rightsection">
+                <img class="image-op" src="bg.png.png" alt="">
+            </div>
+        </section>
+            <section>
+                <hr>
+                <section class="secondsection">
+                    <span class="text-gray">what i have done so far</span>
+                    <h1>work experience</h1>
+
+                    <div class="box">
+                        <div class=" vertical">
+               <img  class="image-top" src="ht.png.png"alt="">
+                    <div class="vertical-tittle">
+                         html developer
+                    </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a?
+                        </div>
+                        <div class=" vertical">
+                            <img  class="image-top" src="Fc.png.png"alt="">
+                                 <div class="vertical-tittle">
+                                      facebook developer
+                                     </div>
+                                     <div class="vertical-desc">
+                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a?
+                                     </div>
+                                     <div class=" vertical">
+                                        <img  class="image-top" src="int.png.jpg"alt="">
+                                             <div class="vertical-tittle">
+                                                instagram developer
+                                                 </div>
+                                                 <div class="vertical-desc">
+                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a?
+                                                 </div>
+                                                 <div class=" vertical">
+                                                    <img  class="image-top" src="twi.png.png"alt="">
+                                                         <div class="vertical-tittle">
+                                                            twitter developer
+                                                             </div>
+                                                             <div class="vertical-desc">
+                                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a?
+                                                             </div>
+                                                 </div>
+                                     </div>
+                </section>         
+            </section>
+        </section>
+    </main>
+    <footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>pavan developer portfileo</h3>
+        </div>
+        <div class=" footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact me</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact me</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact me</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-rights">
+   www. pavanportfoleo.com copy&#169 | All rights reserved
+    </div>
+    </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+          <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web developer', 'graphic designer', 'web designer','video editor'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</body>
+
+ </main>
+
+
+</body>
+</html>
